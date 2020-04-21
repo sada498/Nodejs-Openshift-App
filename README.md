@@ -19,7 +19,8 @@
       oc new-project <projectname>
       Ex: oc new-project node-test1
      ```
-![Image of project](https://github.com/sada498/OpenShift-Apps/blob/master/node-express-hello/images/project%20create.gif)
+    ![Image of project](https://github.com/sada498/OpenShift-Apps/blob/master/node-express-hello/images/project%20create.gif)
+    
 7. Deploy the application 
      ```
       oc new-app -- name node-express-hello https://github.com/sada498/OpenShift-Apps.git#test-1  --context-dir node-express-       hello
@@ -34,7 +35,7 @@
      ```
 10.  Go the web console check the application public end point
 
-![Image of finall check](https://github.com/sada498/OpenShift-Apps/blob/master/node-express-hello/images/final%20check.gif)
+     ![Image of finall check](https://github.com/sada498/OpenShift-Apps/blob/master/node-express-hello/images/final%20check.gif)
 
 ## How to make CI/CD pipe line for GitHub and OpenShift 
 
@@ -44,4 +45,5 @@
 4. Click the your project build config to bring up the Build Config Overview page.
 5. Scroll to the bottom of this page and locate the Copy URL with Secret link next to the GitHub type.
 6. Click on the notepad icon to copy the payload URL.
-![Image of webhook](https://github.com/sada498/OpenShift-Apps/blob/master/node-express-hello/images/Webhook.gif)
+     ![Image of webhook](https://github.com/sada498/OpenShift-Apps/blob/master/node-express-hello/images/Webhook.gif)
+7. When you make changes or commits to github project.OpenShift make a automatic builds for the application.
