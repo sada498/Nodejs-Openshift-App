@@ -20,7 +20,8 @@
       Ex: oc new-project node-test1
      ```
     or
-    creating a project in web console
+    creating a project in web console 
+    
     ![Image of project](https://github.com/sada498/OpenShift-Apps/blob/master/node-express-hello/images/project%20create.gif)
     
 7. Deploy the application 
