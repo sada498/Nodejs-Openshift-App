@@ -1,4 +1,4 @@
-#OpenShift Development Environment with GitHub and Visual Studio Code
+## OpenShift Development Environment with GitHub and Visual Studio Code
 1. to Access Openshit from command you need to install OpenShift command line interface (CLI). 
     Link https://mirror.openshift.com/pub/openshift-v4/clients/ocp/latest/.
 2. download the openshift-client-<platform>-<version>.* .
