@@ -1,8 +1,8 @@
 var express = require('express');
 app = express();
 
-app.get('/mars', function (req, res) {
-  res.send('Hello World!\n');
+app.get('/', function (req, res) {
+  res.send('Hello World! from test-1 branch\n');
 });
 
 app.listen(8080, function () {
