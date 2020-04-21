@@ -2,8 +2,8 @@
 1. To Access Openshit from command you need to install OpenShift command line interface (CLI). 
     Link https://mirror.openshift.com/pub/openshift-v4/clients/ocp/latest/.
 2. Download the openshift-client-<platform>-<version>.* .
-3. Windows user need to add the path of the file to environment veriable
-   To Help https://www.architectryan.com/2018/03/17/add-to-the-path-on-   windows-10/ 
+3. Windows user need to add the path of the file to environment variable
+   To Help https://www.architectryan.com/2018/03/17/add-to-the-path-on-windows-10/ 
 4. Check the the version through command promit
       ``` 
        oc version
